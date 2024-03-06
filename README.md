@@ -43,6 +43,9 @@ FIM
 
 
 
+
+
+
 # TAREFA DE RLA
 ## Primeira questão
 
@@ -58,7 +61,8 @@ f-->h(FIM)
 g-->h
  ```
 
-algoritimo_aprovado_ou_reprovado
+```
+ALGORITIMO_aprovado_ou_reprovado
 DECLARE nota1, nota2, soma, media
 ESCREVA "digite uma nota"
 LEIA nota1
@@ -74,6 +78,15 @@ SE media<7
 	SENAO 
 	 ESCREVA "REPROVADO"
 FIM
+```
+
+
+
+
+
+
+
+
 
 
 
