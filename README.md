@@ -85,6 +85,43 @@ FIM
 
 
 
+# TAREFA RLA
+## SEGUNDA QUESTÃO
+novo salario
+
+
+
+```mermaid
+graph
+a(INICIO) --> b{digite salario atual}
+b --> c[[salario]]
+c --> d([se salario=500])
+d --SIM-->e{{ novo salario é 600}}
+d --NÃO-->f{{salario.110%==novo salario}}
+e -->g(fim)
+f-->g
+ ```
+
+```
+ALGORITIMO novo_salario
+DECLARE salario, novo salario
+ESCREVA "digite seu salario:"
+LEIA salario 
+SE salario=500
+	ENTÃO
+		ESCREVA "novo salario é 600"
+	SENÃO
+		CAlCULE "salario".110%
+		LEIA "novo salario"
+		ESCREVA "novo salario é "novo salario""
+FIM
+```
+
+
+
+
+
+
 
 
 
