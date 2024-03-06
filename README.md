@@ -38,3 +38,47 @@ SENÃO
 	ESCREVA "O numero deve sernpositivo"
 FIM                                                      
 ```
+
+
+
+
+
+# TAREFA DE RLA
+## Primeira questão
+
+ ```mermaid
+ graph 
+ a(inicio) --> b[digite o valor da nota1:]
+ b --> c[digite o valor da nota2]
+c --> d((calcule: nota1+nota2==SOMA))
+d --> e{se: SOMA%2<7}
+	e--sim-->f[[REPROVADO]]
+	e--não -->g[[APROVADO]]
+f-->h(FIM)
+g-->h
+ ```
+
+algoritimo_aprovado_ou_reprovado
+DECLARE nota1, nota2, soma, media
+ESCREVA "digite uma nota"
+LEIA nota1
+ESCREVA "digite a outra nota"
+LEIA nota2
+CALCULE nota1+nota2
+LEIA soma
+CALCULE soma%2
+LEIA media
+SE media<7 
+	ENTAO 
+	 ESCREVA "APROVADO"
+	SENAO 
+	 ESCREVA "REPROVADO"
+FIM
+
+
+
+
+
+
+
+
