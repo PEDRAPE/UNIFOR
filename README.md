@@ -118,7 +118,33 @@ FIM
 ```
 
 
+# QUESTÃO 4
+## idade e cnh
 
+```mermaid
+graph
+a(INICIO)-->b[(digite sua idade:)]
+b-->c[[idade]] 
+c-->d([idade<18])
+d--NÃO-->e{{CNH já pode ser reitirada}}
+d--SIM--
+```ALGORITIMO_CNHDEClARE idadeESCREVA "digite sua idade:"LEIA idadeSE idade<18	ENTÃO		ESCREVA "faltam (18-idade) anos para poder retirar sua CNH	SENÃO		ESCREVA "CNH já pode ser retirada"FIM``` >f{{FALTAM 18-idade anos para poder retirar sua CNH}}
+e-->FIM
+f-->FIM
+```
+
+```
+ALGORITIMO_CNH
+DEClARE idade
+ESCREVA "digite sua idade:"
+LEIA idade
+SE idade<18
+	ENTÃO
+		ESCREVA "faltam (18-idade) anos para poder retirar sua CNH
+	SENÃO
+		ESCREVA "CNH já pode ser retirada"
+FIM
+```
 
 
 
