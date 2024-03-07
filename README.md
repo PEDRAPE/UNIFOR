@@ -174,21 +174,27 @@ FIM
 
 
 ## SEGUNDA TAREFA
-### TEMP EM C PARA F
+### celsius para fahrenheit 
+
 
 ```mermaid
 graph
-a(INICIO)-->b{temperatura em Celsius}
+a(INICIO)-->b{escreva a temperatura em Celsius:}
+b-->c[[tempC]]
+c-->d{{tempC * 1.8 + 32:tempF}}
+d-->e[[tempF]]
+e-->FIM
 
 ```
+```
+ALGORITIMO_c_para_f
+DECLARE f,c NUMERICO
+ESCREVA "digite a temperatura em celsius:"
+LEIA c
+f<-- c*1.8+2
+ESCREVA "o resultado é:"f
 
-
-
-
-
-
-
-
+```
 
 
 
