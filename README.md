@@ -146,6 +146,43 @@ SE idade<18
 FIM
 ```
 
+# TAREFA RLA AULA 3
+## PRIMEIRA TAREFA
+### media de 4 numeros inteiros
+
+```mermaid
+graph
+a(INICIO)-->b{{escreva 4 numeros inteiros:}}
+b-->c([nun1,nun2.nun3,nun4])
+c-->d[nun1+nun2+nun3+nun4:]
+d-->e((resultado1))
+e-->f{resultado1 %4}
+f-->g[[resultadoF]]
+g-->FIM
+
+```
+```
+ALGORITIMO-calc-media4
+DECLARE nun1 nun2 nun3 nun4 resultado1 resultadof
+ESCREVA "digite os 4 números"
+LEIA nun1 nun2 nun3 nun4
+nun1*nun2*nun3*nun4 == resultado1
+resultado1 % 4 == resultadof
+ESCREVA "resultado é:" resultadof
+FIM
+```
+
+
+## SEGUNDA TAREFA
+### TEMP EM C PARA F
+
+```mermaid
+graph
+a(INICIO)-->b{temperatura em Celsius}
+
+```
+
+
 
 
 
