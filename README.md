@@ -196,5 +196,43 @@ ESCREVA "o resultado é:"f
 
 ```
 
+## Terceira tarefa
+### polegadas pra mililitros 
+
+```mermaid
+graph
+
+a(inicio)-->b{chuva em polegadas:}
+b-->c[[chuvap]]
+c-->d[chuvap.25,4:]
+d-->e{{chuva em mililitros}}
+
+
+
+```
+
+```
+ALGORITIMO_chuva
+DECLARE chuvap, chuvam
+ESCREVA "digite o valor em polegadas":
+LEIA chuvap
+ESCREVA: chuvap.25,4:
+LEIA chuvam
+ESCREVA "o resultado é: (chuvam)
+
+```
+
+## tarefa 4
+### custo
+
+```mermaid
+graph
+a(INICIO)-->b{valor de fabrica:}
+b-->c((vdf))
+c-->d{{vdf+ 'vdf*57 100': }}
+d-->e[[fn]]
+e-->FIM
+```
+
 
 
